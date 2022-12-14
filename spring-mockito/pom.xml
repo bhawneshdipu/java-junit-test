@@ -4,16 +4,16 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-mockito</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>spring-mockito</name>
     <packaging>jar</packaging>
     <description>Injecting Mockito Mocks into Spring Beans</description>
 
     <parent>
         <groupId>com.dipu</groupId>
-        <artifactId>parent-boot-2</artifactId>
-        <version>0.1.0.0-SNAPSHOT</version>
-        <relativePath>../../parent-boot-2</relativePath>
+        <artifactId>java-testing</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../java-testing</relativePath>
     </parent>
 
     <dependencies>

@@ -9,9 +9,9 @@
 
     <parent>
         <groupId>com.dipu</groupId>
-        <artifactId>parent-boot-2</artifactId>
-        <version>0.1.0.0-SNAPSHOT</version>
-        <relativePath>../../parent-boot-2</relativePath>
+        <artifactId>java-testing</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../java-testing</relativePath>
     </parent>
 
     <dependencies>
