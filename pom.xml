@@ -3,31 +3,49 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.dipu</groupId>
-  <artifactId>java-junit-test</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <artifactId>java-testing</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-  <name>java-junit-test</name>
+  <name>java-testing</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>assertion-libraries</module>
+    <module>cucumber</module>
+    <module>hamcrest</module>
+    <module>junit-4</module>
+    <module>junit-5-advanced</module>
+    <module>junit-5-basics</module>
+    <module>junit-5</module>
+    <module>load-testing-comparison</module>
+    <module>junit5-annotations</module>
+    <module>junit5-migration</module>
+    <module>mockito</module>
+    <module>mockito-simple</module>
+    <module>mocks</module>
+    <module>mocks-2</module>
+    <module>mockserver</module>
+    <module>parallel-tests-junit</module>
+    <module>powermock</module>
+    <module>rest-assured</module>
+    <module>rest-testing</module>
+    <module>selenium-junit-testng</module>
+    <module>spring-mockito</module>
+    <module>spring-testing-2</module>
+    <module>spring-testing</module>
+    <module>test-containers</module>
+    <module>testng</module>
+    <module>testng-command-line</module>
+    <module>xmlunit-2</module>
+    <module>mockito-2</module>
+
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
-    </dependency>
-    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-api</artifactId>
-      <version>5.9.1</version>
-      <scope>test</scope>
-    </dependency>
 
   </dependencies>
 </project>
